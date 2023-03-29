@@ -1,0 +1,36 @@
+@media(max-width:750px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .principal {
+        width: 500px;
+        gap: 2.5em;
+        margin: 0 5%;
+    }
+
+
+}
+
+@media (max-width:450px) {
+
+    .principal {
+        width: 360px;
+    }
+}
+
+/* LISTA MERCADO */
+
+@media (max-width:900px) {
+    .lista-mercado {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lista-itens {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+}

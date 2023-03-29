@@ -1,0 +1,39 @@
+.lista-itens{
+    display: flex;
+    flex-direction: column;
+    width: 31.25em;
+    gap: 0.625em;
+    background-color: var(--cor-fundo-formulario);
+    border-radius: 0.625em;
+    padding: 1.875em;
+    color: var(--cor-escura);
+    box-shadow: 0px 0px 0.625em var(--cor-verde-sombra);
+}
+.lista-item {
+
+    padding: 0.625em;
+    border-radius: 0.625em;
+    background: var(--cor-branco);
+    border: 1px solid var(--cor-escura);
+    text-align: center;
+}
+.item-texto{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.lista-itens strong {
+    font-weight: 700;
+    background: var(--cor-escura);
+    padding: 0.1875em;
+    border-radius: 0.625em;
+    margin: 0 0.625em;
+    color: var(--cor-branco);
+
+}
+
+.botaoDeleta{
+    background: var(--cor-botao-deletar);
+    padding: 0.3em 1em;
+    margin-left: 1em;
+    border-radius: 1em;
+}

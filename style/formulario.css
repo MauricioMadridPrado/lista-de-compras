@@ -1,0 +1,60 @@
+.titulo-formulario{
+    font-size: var(--tamanho-fonte-1);
+    text-align: center;
+    margin: 1em 0 ;
+    color: var(--cor-branco);
+}
+.lista-mercado{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.875em;
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 0.625em;
+    background: var(--cor-fundo-formulario);
+    color: var(--cor-escura) ;
+    padding: 1.875em;
+    border-radius: 0.625em;
+    box-shadow: 0px 0px 0.625em var(--cor-verde-sombra);
+}
+.nomeItem{
+    font-size: var(--tamanho-fonte-2);
+}
+
+.quantidadeItem{
+    font-size: var(--tamanho-fonte-3);
+    align-self: center;
+    
+}
+.formulario-radio input {
+    padding: 0.25em;
+}
+.entradas{
+    padding: 0.625em 0.625em ;
+    min-width: 6.25em;
+    border-radius: 0.625em;
+    text-transform: lowercase;
+}
+.botaoFormulario {
+    background: var(--cor-botao-enviar);
+    color: var(--cor-branco);
+    padding: 0.625em 0;
+    border-radius: 0.625em;
+}
+.botaoFormulario:active {
+    background: var(--cor-branco);
+}
+.quantidadeTipo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.quantidadeTipo input {
+    max-width: 1.875em;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Lista do mercado</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edege">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <!-- CABECALHO -->
+    <header class="cabecalho">
+
+    </header>
+    <!-- PRINCIPAL  -->
+    <main class="principal">
+        <h2 class="titulo-formulario">Lista de compras</h2>
+        <div class="lista-mercado">
+
+            <form action="" class="formulario" id="formulario">
+                <label class="nomeItem" for="nomeItem">Mercadoria</label>
+                <input class="entradas" type="text" name="nomeItem" id="nomeItem" required>
+                <label class="quantidadeItem" for="quantidadeItem">Quantidade</label>
+
+                <input class="entradas" type="number" name="quantidadeItem" id="quantidadeItem" required>
+
+                <select class="entradas" name="item-tipo" id="item-tipo" required aria-placeholder="tipo">
+
+                    <option id="item-tipo" name="item-tipo" id="item-tipo">Unidades</option>
+                    <option id="item-tipo" name="item-tipo" id="item-tipo">Kg</option>
+                    <option id="item-tipo" name="item-tipo" id="item-tipo">Gramas</option>
+                    <option id="item-tipo" name="item-tipo" id="item-tipo">Litros</option>
+
+                </select>
+
+                <input type="submit" value="Adicionar" class="botaoFormulario" id="enviarItem">
+
+
+                <input type="button" class="botaoFormulario" id="apagaLista" value="Apaga lista">
+            </form>
+
+            <ul class="lista-itens" id="lista-itens">
+                <!-- 
+    MODELO
+                <li class="lista-item">
+                    <span class="item-texto"> Cebola </span>
+                    <strong class="lista-quantidade">5</strong>
+                    <Span class="tipo-lista"> Kilos </Span>
+                </li> -->
+            </ul>
+        </div>
+
+    </main>
+    <!-- RODAPE -->
+    <footer class="rodape">
+
+        <div class="rodape-container">
+            <p class="rodape-container-texto">Desenvolvido por Maurício Madrid Prado</p>
+        </div>
+    </footer>
+    <!-- IMPORT DO JS -->
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
